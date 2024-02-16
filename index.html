@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Form</title>
+</head>
+<body>
+
+<div class="container">
+  <h3>Signup</h3>
+  <form method="post" action="includes/form.php">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" required>
+    <label for="device">Device:</label>
+    <input type="text" id="device" name="device" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <input type="submit" value="submit">
+  </form>
+</div>
+<p></p>
+<div class="view-data">
+  <a href="json.php">
+    <button>View Data</button>
+  </a>
+</div>
+
+</body>
+</html>
